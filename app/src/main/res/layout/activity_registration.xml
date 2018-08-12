@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="@drawable/dwarf_warrior">
+
+    <ImageView
+        android:id="@+id/epLogoIMG"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/nerdr_logo_large" />
+
+
+    <EditText
+        android:id="@+id/reUsernameText"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/epLogoIMG"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableRight="@drawable/avatar"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="3dp" />
+
+    <EditText
+        android:id="@+id/rePasswordText"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reUsernameText"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableRight="@drawable/lock"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="3dp" />
+
+    <EditText
+        android:id="@+id/reEmail"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rePasswordText"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableRight="@drawable/email_at"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="3dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/reCountryAC"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/reEmail"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Country"
+        android:drawableRight="@drawable/earth"
+        android:background="@drawable/rounded_edittext"
+        android:padding="3dp"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/reCityMAC"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/reCountryAC"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittext"
+        android:drawableRight="@drawable/earth"
+        android:layout_marginTop="10dp"
+        android:hint="City"
+        android:padding="3dp"/>
+
+    <RadioButton
+        android:id="@+id/reMaleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reCityMAC"
+        android:layout_alignLeft="@+id/reCityMAC"
+        android:text="Male"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        />
+
+    <RadioButton
+        android:id="@+id/reFemaleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/reCityMAC"
+        android:layout_below="@+id/reCityMAC"
+        android:text="Female"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"/>
+
+    <Button
+        android:id="@+id/reRegistrationBtn"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reMaleBtn"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="Register"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:padding="3dp"/>
+
+    <ImageView
+        android:id="@+id/reInfoImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/if_info_white" />
+
+</RelativeLayout>

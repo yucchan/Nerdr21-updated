@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "721505113282",
+    "firebase_url": "https://nerdr21-a3b70.firebaseio.com",
+    "project_id": "nerdr21-a3b70",
+    "storage_bucket": "nerdr21-a3b70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721505113282:android:723008aba9fea77a",
+        "android_client_info": {
+          "package_name": "com.yulitka.nerdr21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721505113282-jjcllvb12at9s6cmua26pdjtpnrj14am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yulitka.nerdr21",
+            "certificate_hash": "fae37e740595ce7be476cb06a53fa362636ffa97"
+          }
+        },
+        {
+          "client_id": "721505113282-57dirqbo401m9c1kicp2e89ja1losmgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yulitka.nerdr21",
+            "certificate_hash": "0b26e53a6f639d75c499a2faba46e2d8f440d105"
+          }
+        },
+        {
+          "client_id": "721505113282-2dukuim0ghusmobth1548hv8bkeioh7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEs8sCsL5EfErRYRA_G96SFFWfG0wbf3M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721505113282-2dukuim0ghusmobth1548hv8bkeioh7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

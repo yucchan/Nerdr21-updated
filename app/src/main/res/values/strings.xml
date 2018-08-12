@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nerdr</string>
+    <string name="available_soon">This feature will be available soon.</string>
+    <string name="login_failed">Username or password incorrect. Please Try again.</string>
+    <string name="info_text">Nerdr was developed by Yuliya Smirnova for Android development course
+        at Colman.\n\n\nAll rights reserved © 2018</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity"
+    android:background="@drawable/dwarf_warrior">
+
+
+    <ImageView
+        android:id="@+id/epLogoIMG"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/nerdr_logo_large" />
+
+    <ImageView
+        android:id="@+id/epProfileIMG"
+        android:layout_width="100dp"
+        android:layout_height="97dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/epLogoIMG"
+        android:layout_marginBottom="339dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/epUsernameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/epProfileIMG"
+        android:layout_alignTop="@+id/epProfileIMG"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:text="Username" />
+
+
+    <LinearLayout
+        android:id="@+id/epLinearLayout"
+        android:orientation="horizontal"
+        android:layout_below="@+id/epUsernameTV"
+        android:layout_toRightOf="@id/epProfileIMG"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        >
+
+        <Button
+            android:id="@+id/epChgImgBtn"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:padding="0dp"
+            android:text="Change\nImage"
+            android:textColor="@color/colorWhite"
+            android:textSize="8sp"
+            />
+
+        <Button
+            android:id="@+id/epChgDescBtn"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:background="@color/colorAccent"
+            android:text="Edit\nProfile"
+            android:textColor="@color/colorWhite"
+            android:textSize="8sp"/>
+
+        <Button
+            android:id="@+id/epSaveExitBtn"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="Log\nOut"
+            android:layout_margin="15dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="8sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/epProfileDescrTV"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/epLinearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:text="ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" />
+    <Button
+        android:id="@+id/epChatBtn"
+        android:layout_below="@+id/epProfileDescrTV"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Chat"
+        android:layout_margin="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
